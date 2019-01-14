@@ -4,12 +4,13 @@
   "description": "example solutions for advent of code",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
-    "test": "jest --coverage --forceExit"
+    "start": "nodemon index.js",
+    "test": "echo \"ERROR: no test specified\""
   },
   "author": "rmagee88",
   "license": "ISC",
   "dependencies": {
-    "server": "^1.0.18"
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4"
   }
 }
